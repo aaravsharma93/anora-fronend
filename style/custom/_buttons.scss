@@ -1,0 +1,32 @@
+.btn {
+  border-radius: 10px;
+  &:hover,
+  &:active,
+  &:focus {
+    box-shadow: none !important;
+    outline: none !important;
+  }
+}
+.btn-secondary {
+  background: var(--btn-secondary-bg) !important;
+  color: var(--btn-secondary-text) !important;
+}
+
+.btn-gradient-primary {
+  background: linear-gradient(300.92deg, #1f4173 -13.77%, #1660cc 72.34%);
+  border-radius: 15px;
+}
+
+.btn-gradient-secondary {
+  background: var(--btn-primary);
+}
+
+.subscription-form {
+  .btn-primary {
+    background: var(--form-btn-primary);
+    border-radius: 10px !important;
+    font-weight: bold;
+    font-size: 15px;
+    border: 0;
+  }
+}

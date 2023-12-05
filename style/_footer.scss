@@ -1,0 +1,33 @@
+footer {
+  background-color: #ffffff;
+  padding: 6rem 0 4rem;
+  .footer-nav-link {
+    li {
+      a {
+        text-decoration: none;
+        &:hover {
+          text-decoration: underline;
+        }
+      }
+    }
+  }
+  .list-social {
+    li {
+      a {
+        color: var(--social-color) !important;
+      }
+    }
+  }
+}
+footer.dark {
+  background-color: #181818;
+  color: var(--text-grey);
+
+  .list-social {
+    li {
+      a {
+        color: var(--text-grey) !important;
+      }
+    }
+  }
+}

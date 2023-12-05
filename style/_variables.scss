@@ -1,0 +1,66 @@
+// Colors
+
+$primary: #3a85fc !important;
+$danger: #e80000 !important;
+$success: #49b659 !important;
+$muted: #c4c4c4 !important;
+
+:root {
+  --white: #ffffff;
+  --body-bg: linear-gradient(1.48deg, #f6f6f6 67.73%, rgba(0, 0, 0, 0) 83.29%);
+
+  // nav
+  --nav-text-color: #989797;
+  --nav-active-color: #3a85fc;
+  --nav-border-color: #c4c4c4;
+  --nav-active-border-color: #3a85fc;
+
+  // Buttons
+  --form-btn-primary: linear-gradient(140.57deg, #b264e1 8.37%, #448cfd 73.43%);
+  --btn-secondary-text: #989797;
+  --btn-secondary-bg: #f4f5f6;
+
+  //Card
+  --card-border-color: #c4c4c4;
+  --statistic-card-bg: transparent;
+  --feature-card-bg: #f6f8fd;
+
+  --text-grey: #c7c7c7;
+  --bg-dark: #0c0c0c;
+  --dark: #000;
+  --dark-500: #687292;
+  --dark-700: #1b1b1b;
+  --form-subscribe-bg: #ffffff;
+
+  // Footer
+  --social-color: #1b1b1b;
+}
+
+.bg-dark {
+  background-color: var(--bg-dark) !important;
+}
+
+.text-white {
+  color: var(--text-white) !important;
+}
+.text-danger {
+  color: $danger !important;
+}
+.text-success {
+  color: $success !important;
+}
+.text-dark {
+  color: var(--dark) !important;
+}
+
+.fw-medium {
+  font-weight: 500 !important;
+}
+
+.dark-700 {
+  color: var(--dark-700);
+}
+
+.bg-light-secondary {
+  background-color: #3A3A3A;
+}

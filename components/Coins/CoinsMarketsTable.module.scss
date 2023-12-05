@@ -1,0 +1,19 @@
+.container {
+  font-size: 13px;
+
+  &.table{
+    display: none;
+  }
+
+  &.table > :not(caption) > * > * {
+    display: none!important;
+    border-width: 0;
+  }
+}
+
+.activeScore {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: #2DEFA2;
+}
